@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12ee74a9796744a8a94a5e6a69474644
+guid: d766000429b4f4d66bdc254005f363fa
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -416,13 +416,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PirateShip
+      name: CannonBall
       rect:
         serializedVersion: 2
-        x: 408
-        y: 285
-        width: 67
-        height: 109
+        x: 120
+        y: 473
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2673,7 +2673,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PirateShip: 7072590022351340806
+      CannonBall: 7072590022351340806
       shipsMiscellaneous_sheet_1: 9202046051227714200
       shipsMiscellaneous_sheet_10: 4568526026083714253
       shipsMiscellaneous_sheet_100: 3414126351792464397
