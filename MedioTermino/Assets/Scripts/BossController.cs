@@ -14,7 +14,7 @@ public class BossController : MonoBehaviour
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    /*void Start()
     {
         // Dispara automáticamente cada segundo
         InvokeRepeating("ShootForward", 1f, 1f);
@@ -23,7 +23,7 @@ public class BossController : MonoBehaviour
     void ShootForward()
     {
         shoot(Vector2.down); // Dispara hacia abajo
-    }
+    }*/
 
     // Update is called once per frame
     void Update()

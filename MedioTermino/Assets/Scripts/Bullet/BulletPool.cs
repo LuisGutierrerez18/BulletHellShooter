@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class BulletPool : MonoBehaviour
 {
     // Tiene referencia al prefab de la bala
+    // SerializeField se utiliza para hacer que un campo privado sea visible en el Inspector de Unity
     [SerializeField] private Bullet bulletPrefab;
     [SerializeField] private int poolSize = 10;
 

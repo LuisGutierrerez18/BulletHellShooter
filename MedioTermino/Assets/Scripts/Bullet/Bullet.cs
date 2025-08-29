@@ -27,8 +27,14 @@ public class Bullet : MonoBehaviour
         }
     }
 
+    void OnEnable()
+    {
+        lifetime = 0f; // Reinicia el lifetime cada vez que se activa
+    }
+
     private void Disable()
     {
+        lifetime = 0f; // Reinicia el lifetime para el próximo uso
         gameObject.SetActive(false);
     } 
 }
