@@ -23,7 +23,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         // Dispara si es tiempo y faltan balas
         if (shootTimer >= shootInterval && bulletsShot < bulletsPerRotation)
         {
-            Vector2 direction = -transform.up; // Dirección de disparo
+            Vector2 direction = -transform.up; // Dirección de disparo, el negativo significa que el barco está viendo hacia abajo
             bossController.shoot(direction);
             bulletsShot++;
             shootTimer = 0f;
