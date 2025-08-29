@@ -1,21 +1,29 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class LinearShooting : MonoBehaviour
 {
-    // En este modo de disparo el boss rotara sobre su eje 90 grados y disparara
+    // En este modo de disparo el boss(barco pirata) rotara sobre su eje 90 grados y disparara
     public BossController bossController;
     public int bulletsPerRotation = 10;
     public float rotationAngle = 90f;
     private int currentRotation = 0;
     private int bulletsShot = 0;
-    public int maxRotations = 5; // Para permitir 4 rotaciones completas
+    public int maxRotations = 5; 
     private float shootTimer = 0f;
     public float shootInterval = 0.5f;
     private float currentAngle = 0f;
 
+    public void OnEnable()
+    {
+        currentRotation = 0;
+        bulletsShot = 0;
+        shootTimer = 0f;
+        currentAngle = 0f;
+    }
+    
 
-    void Update() {
-        // Para cuando complete 1080° (3 ciclos completos) y haya disparado las balas finales
+    public void Update() {
+        // Para cuando complete 1080° (3 ciclos completos de 360 grados)
         if (currentAngle >= 1080f && bulletsShot >= bulletsPerRotation) return;
 
         shootTimer += Time.deltaTime; // Actualiza el temporizador de disparo

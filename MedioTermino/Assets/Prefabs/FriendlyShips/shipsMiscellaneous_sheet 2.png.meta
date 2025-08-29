@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d766000429b4f4d66bdc254005f363fa
+guid: a889a7964ffc1418fa8b8a38da9dfa37
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -548,7 +548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FriendlyShip3
+      name: shipsMiscellaneous_sheet_6
       rect:
         serializedVersion: 2
         x: 271
@@ -966,7 +966,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shipsMiscellaneous_sheet_25
+      name: FriendlyShip3
       rect:
         serializedVersion: 2
         x: 203
@@ -991,10 +991,10 @@ TextureImporter:
       name: FriendlyShip2
       rect:
         serializedVersion: 2
-        x: 273
-        y: 288
-        width: 67
-        height: 110
+        x: 277
+        y: 283
+        width: 68
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,7 +1010,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FriendlyShip1
+      name: shipsMiscellaneous_sheet_27
       rect:
         serializedVersion: 2
         x: 339
@@ -1384,7 +1384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shipsMiscellaneous_sheet_44
+      name: FriendlyShip1
       rect:
         serializedVersion: 2
         x: 339
@@ -2674,9 +2674,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       CannonBall: 7072590022351340806
-      FriendlyShip1: -2038539068520943377
+      FriendlyShip1: 228517789718444038
       FriendlyShip2: 8147640796394750502
-      FriendlyShip3: -2795976770295327115
+      FriendlyShip3: 7017452450847610362
       shipsMiscellaneous_sheet_1: 9202046051227714200
       shipsMiscellaneous_sheet_10: 4568526026083714253
       shipsMiscellaneous_sheet_100: 3414126351792464397
@@ -2696,7 +2696,7 @@ TextureImporter:
       shipsMiscellaneous_sheet_22: -5738598326558167851
       shipsMiscellaneous_sheet_23: -8763186973272327925
       shipsMiscellaneous_sheet_24: -1540206473092946781
-      shipsMiscellaneous_sheet_25: 7017452450847610362
+      shipsMiscellaneous_sheet_27: -2038539068520943377
       shipsMiscellaneous_sheet_28: 663576582327453874
       shipsMiscellaneous_sheet_29: -7571583900263281601
       shipsMiscellaneous_sheet_3: -2704309627326049121
@@ -2715,7 +2715,6 @@ TextureImporter:
       shipsMiscellaneous_sheet_41: -7157094994138709299
       shipsMiscellaneous_sheet_42: 964889404271946528
       shipsMiscellaneous_sheet_43: 960109244731984947
-      shipsMiscellaneous_sheet_44: 228517789718444038
       shipsMiscellaneous_sheet_45: 433782189467902977
       shipsMiscellaneous_sheet_46: -914329192024966877
       shipsMiscellaneous_sheet_47: 5365814543359373056
@@ -2732,6 +2731,7 @@ TextureImporter:
       shipsMiscellaneous_sheet_57: -3198275101629667387
       shipsMiscellaneous_sheet_58: 4865283759798025469
       shipsMiscellaneous_sheet_59: 6613958021756271240
+      shipsMiscellaneous_sheet_6: -2795976770295327115
       shipsMiscellaneous_sheet_60: 6452030658119361444
       shipsMiscellaneous_sheet_61: 1978291476243741472
       shipsMiscellaneous_sheet_62: -5702183275597723675

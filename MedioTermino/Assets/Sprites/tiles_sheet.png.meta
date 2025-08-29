@@ -589,11 +589,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 324
-        y: 134
+        y: 131
         width: 251
         height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -602,6 +602,72 @@ TextureImporter:
       bones: []
       spriteID: 3bb8045190bbb4bf1b68049105552601
       internalID: -133757797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 56
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc68a284b4f9147e88afcd817910bad2
+      internalID: -593252912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrandedShip
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d3eccf8d19a4ea4b2b3ac33c538ac5
+      internalID: -1242620045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 67
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad51bdc1a6a44191bd8fc8b1c8af3d9
+      internalID: -1698758610
       vertices: []
       indices: 
       edges: []
@@ -621,7 +687,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       LandWGrass: -133757797
+      Rock1: -1698758610
       Sea: 7158607818749665473
+      StrandedShip: -1242620045
+      tiles_sheet_0: -593252912
       tiles_sheet_1: -3179138849042035142
       tiles_sheet_10: -4215191528904792185
       tiles_sheet_11: 3388612332658881772

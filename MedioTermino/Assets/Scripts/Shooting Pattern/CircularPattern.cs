@@ -11,7 +11,13 @@ public class CircularPattern : MonoBehaviour
     private float shootTimer = 0f;
     private float rotationOffset = 0f; // Para rotar cada onda
 
-    void Update()
+    public void OnEnable()
+    {
+        currentWave = 0;
+        shootTimer = 0f;
+        rotationOffset = 0f;
+    }
+    public void Update()
     {
         // Si ya completó todas las ondas circulares, para el patrón
         if (currentWave >= maxWaves)
@@ -21,7 +27,7 @@ public class CircularPattern : MonoBehaviour
 
         shootTimer += Time.deltaTime;
 
-        // Disparar cuando llegue el momento
+        // Dispara una nueva onda circular si ha pasado el intervalo de disparo
         if (shootTimer >= shootInterval)
         {
             ShootCircle();

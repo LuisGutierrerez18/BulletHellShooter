@@ -9011,8 +9011,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossController: {fileID: 1368546051}
-  bulletCount: 10
+  bulletsPerRotation: 10
   rotationAngle: 90
+  maxRotations: 3
+  shootInterval: 0.5
+--- !u!114 &1368546055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368546048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd88ca15e3a84de9897cd0f94630d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossController: {fileID: 1368546051}
+  numberOfBullets: 12
+  shootInterval: 1.5
+  maxWaves: 5
+--- !u!114 &1368546056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368546048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a6c704c7ca2446879a380d07af5798c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossController: {fileID: 1368546051}
+  totalBullets: 40
+  rotationSpeed: 9
+  shootInterval: 0.1
+  maxSpirals: 3
 --- !u!1001 &1373262527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12265,6 +12300,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2539622378926176965, guid: 410adceeb62a14316aef9d61b6fe352d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1368546054}
+    - targetCorrespondingSourceObject: {fileID: 2539622378926176965, guid: 410adceeb62a14316aef9d61b6fe352d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1368546055}
+    - targetCorrespondingSourceObject: {fileID: 2539622378926176965, guid: 410adceeb62a14316aef9d61b6fe352d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1368546056}
   m_SourcePrefab: {fileID: 100100000, guid: 410adceeb62a14316aef9d61b6fe352d, type: 3}
 --- !u!4 &1936943605 stripped
 Transform:
@@ -13856,6 +13897,10 @@ PrefabInstance:
     - target: {fileID: 4561321563764244832, guid: 938501a6d6ae4440b89e6734ec7c8f3f, type: 3}
       propertyPath: m_Name
       value: CannonBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561321563764244832, guid: 938501a6d6ae4440b89e6734ec7c8f3f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8219102883275355621, guid: 938501a6d6ae4440b89e6734ec7c8f3f, type: 3}
       propertyPath: m_SortingOrder
