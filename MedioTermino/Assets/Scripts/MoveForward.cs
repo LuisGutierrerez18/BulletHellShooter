@@ -28,14 +28,5 @@ public class MoveForward : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    // Barcos explotan si son alcanzados por una bala
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("PlayerBullet"))
-        {
-            // Aquí puedes agregar efectos de explosión o sonido si lo deseas
-            Destroy(gameObject); // Destruye el barco
-            Destroy(collision.gameObject); // Destruye la bala
-        }
-    }
+   
 }
